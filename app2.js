@@ -2,10 +2,10 @@ const rpio = require('rpio');
 const sleep = require('sleep');
 const kp = require('keypress');
 
-const RIGHT_FORWARD = 7
-const RIGHT_BACKWARD = 11
-const LEFT_FORWARD = 13
-const LEFT_BACKWARD = 15
+const RIGHT_FORWARD = 31
+const RIGHT_BACKWARD = 33
+const LEFT_FORWARD = 35
+const LEFT_BACKWARD = 37
 
 kp(process.stdin);
 
